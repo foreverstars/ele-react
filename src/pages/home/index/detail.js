@@ -1,6 +1,6 @@
 import React,{Component} from "react"
 
-import "../../style/detail.css"
+import "jsLib/style/detail.css"
 import Detailheader from "./detailheader.js"
 import Detailcontent from "./detailcontent.js"
 

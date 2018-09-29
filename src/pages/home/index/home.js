@@ -8,7 +8,7 @@ import Homebanner from "../com/homebanner.js"
 import Homelist from "../com/homelist.js"
 
 import Api from "jsLib/common/api.js"
-import "../../style/home.css"
+import "jsLib/style/home.css"
 
 import Homeaddress from "./homeaddress.js"
 import Homesearch from "./homesearch.js"
@@ -125,7 +125,7 @@ export default class This extends Component{
 						<Homebanner data={this.state.bannerData}/>
 						<Homelist data={this.state.listData} refresh={this.refresh.bind(this)}/>
 						<div class="foot">
-							<img src="img/ajax-loader.gif" />
+							<img src="static/ajax-loader.gif" />
 							<span>加载更多...</span>
 						</div>
 					</div>
