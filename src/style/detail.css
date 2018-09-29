@@ -1,0 +1,153 @@
+/* detail 部分*/
+#detail{
+ 	width: 100%;
+    height: 100%;
+    background: #fff;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 2;
+}
+/* detail中header部分    */
+.detailhead{
+	width:100%;
+	height:115px;
+	background:#3190e8;
+}
+.detailhead .de-back{
+	padding:3px 10px;
+	height:20px;
+}
+.detailhead .de-back i{
+	font-size:20px;
+	color:white;
+}
+.detailhead .de-des{
+	padding:0 10px;
+	height:55px;
+}
+.detailhead .de-des img{
+	width:55px;
+	height:55px;
+	float:left
+}
+.detailhead  .de-des .de-des-mid{
+	float:left;
+	width:234px;
+	height:55px;
+	margin-left: 10px;
+}
+.detailhead .de-des .de-des-mid h2{
+	font-size:18px;
+	color:#fff;
+	margin-bottom: 5px;
+}
+.detailhead .de-des .de-des-mid p span,.detailhead .de-des .de-des-mid p em{
+	font-size:8px;
+	color:#fff;
+}
+.detailhead .de-des .de-des-mid p em{
+	float:right;
+}
+#promotion_info{
+	margin-top: 5px;
+	width:234px;
+	font-size:8px;
+	color:#fff;
+	overflow:hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+.de-des-right{
+	width:100%;
+	margin-top: 10px;
+	height:10px;
+	margin-left: 10px;
+}
+.de-des-right i ,.de-des-right span,.de-des-right em{
+	color:#fff;
+	font-size: 12px;
+	margin-right: 5px;
+}
+
+/* detail 中content部分*/
+.detailcontent{
+	width:100%;
+}
+.detailcontent .de-con-list{
+	width:100%;
+	height:30px;
+	position:relative;
+}
+.detailcontent .de-con-list:after{
+	content:"";
+	display:block;
+	width:100%;
+	height:1px;
+	position:absolute;
+	left:0;
+	bottom:-1px;
+	border-bottom:1px solid #ccc;
+}
+.detailcontent .de-con-list li{
+	float:left;
+	width:50%;
+	line-height: 30px;
+	text-align: center;
+	line-height:30px;
+	color:#666;
+	font-size:12px;
+}
+.detail-good{
+	width:100%;
+	height:300px;
+}
+.detail-good .detail-good-left{
+	float:left;
+	width:20%;
+	height:400px;
+	overflow: auto;	
+}
+.detail-good .detail-good-left li{
+	font-size:12px;
+	height: 40px;
+	color:#666;
+	display:flex;
+	justify-content: center;
+}
+.detail-good .detail-good-left li span{
+	width:90%;
+	align-self: center;
+}
+.detail-good .detail-good-right{
+	float:left;
+	width:80%;
+	height:400px;
+}
+.detail-good .detail-good-right ul p{
+	width:100%;
+	line-height: 20px;
+	font-size:16px;
+	font-weight: bold;
+}
+.detail-good .detail-good-right ul li{
+	padding:10px;
+	height:80px;
+	border:1px solid #eee;
+}
+.detail-good .detail-good-right ul li img{
+	float:left;
+	width:44px;
+	height:44px;
+}
+.detail-good .detail-good-right ul li div{
+	float:left;
+	width:190px;
+}
+.detail-good .detail-good-right ul li div{
+	font-size:12px;
+}
+.detail-good .detail-good-right ul li div p{
+	font-size:12px;
+}

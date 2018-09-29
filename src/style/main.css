@@ -1,0 +1,130 @@
+/* reset部分 */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*main部分的css*/
+@font-face {font-family: "iconfont";
+  src: url('iconfont.ttf?t=1493089404677') format('truetype'); 
+}
+
+html, body, #app, #app>div{
+	touch-action: none;
+	width: 100%;
+	height: 100%;
+}
+.iconfont {
+  font-family:"iconfont" !important;
+  font-size:16px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.tabs{
+	width:100%;
+	height:49px;
+	position:absolute;
+	left:0;
+	bottom:0;
+	display:flex;
+}
+.tabs:before{
+	content:"";
+	display:block;
+	width:100%;
+	height:1px;
+	border-top:1px;
+	position:absolute;
+	left:0;
+	top:-1px;
+	transform: scaleY(0.5);
+	background:#eee;
+}
+.tabs a{
+	text-decoration: none;
+	display:flex;
+	flex:1;
+	color:#666;
+	flex-direction: column;
+}
+.tabs a.active{
+	color:#0096ff;
+}
+.tabs a em{
+	flex:1;
+	text-align: center;
+	line-height: 29px;
+}
+.tabs a em.icon-eleme:before{
+	content: "\e600";
+}
+.tabs a.active em.icon-eleme:before{
+	content: "\e600";
+}
+.tabs a em.icon-discover:before{
+	content: "\e66f";
+}
+.tabs a.active em.icon-discover:before{
+	content: "\e60f";
+}
+.tabs a em.icon-order:before{
+	content: "\e68d";
+}
+.tabs a.active em.icon-order:before{
+	content: "\e68e";
+}
+.tabs a em.icon-me:before{
+	content: "\e60d";
+}
+.tabs a.active em.icon-me:before{
+	content: "\e65d";
+}
+.tabs a span{
+	height: 20px;
+	font-size: 12px;
+	line-height: 20px;
+	text-align: center;
+}
+
+
